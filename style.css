@@ -23,9 +23,9 @@ input, textarea { font-size:13px; padding:3px 7px 3px 7px; border:none; }
 
 input, a { outline:none; }
 
-a { text-decoration:none; color:#336699; }
+a { text-decoration:none; color:#336699; border: 0; }
 a:hover { text-decoration:underline; }
-
+a img { border: 0; }
 a.post-edit-link {  background-color:#ddeeff; padding:4px 8px 4px 8px; color:#777; text-transform:uppercase; }
 
 h2.pagetitle { margin:20px 0px 0px 20px; font-size:27px; }
