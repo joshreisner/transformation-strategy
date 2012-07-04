@@ -20,7 +20,7 @@
 		<div id="navigation">
 			<ul>
 				<li<?php if (is_front_page()) echo ' class="current_page_item"'?>><a href="/">Blog</a></li>
-				<?php wp_list_pages('title_li='); ?>
+				<?php wp_list_pages('title_li=');?>
 			</ul>
 		</div>
 		<div id="page">
