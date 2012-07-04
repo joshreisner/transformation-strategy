@@ -23,3 +23,4 @@
 				<?php wp_list_pages('title_li=' ); ?>
 			</ul>
 		</div>
+		<div id="page">
