@@ -1,0 +1,11 @@
+#sidebar { right:3px; }
+div.post p { margin-bottom:9px; }
+div.post div.meta {
+	margin-top:-3px;
+}
+div.post div.addtoany { margin-top:15px; }
+
+#searchform #s { height:25px; }
+#searchform #searchsubmit { height:25px; }
+
+#respond form { margin-top:20px; }

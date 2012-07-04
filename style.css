@@ -1,0 +1,184 @@
+/*
+Theme Name: Transformation Strategy
+Theme URI: http://www.transformationstrategy.com/
+Description: A theme custom-made for Dad
+Version: 0.1
+Author: Josh Reisner
+Author URI: http://joshreisner.com.com/
+Tags: blue, green, custom header, fixed width, two columns, widgets
+*/
+
+html, body { height:100%; }
+
+body {
+	font-size:13px;
+	line-height:21px;
+	background-color:#f1f1f1;
+	color: #333;
+	text-align: center;
+	margin:0px;
+}
+
+body, input { font-family: Helvetica, Verdana, Sans-Serif; }
+
+input, textarea { font-size:13px; padding:3px 7px 3px 7px; border:none; }
+
+input, a { outline:none; }
+
+a { text-decoration:none; color:#336699; }
+a:hover { text-decoration:underline; }
+
+a.post-edit-link {  background-color:#ddeeff; padding:4px 8px 4px 8px; color:#777; text-transform:uppercase; }
+
+h2.pagetitle { margin:20px 0px 0px 20px; font-size:27px; }
+
+
+#border1 {
+	margin:0px auto;
+	border-width:0px 1px 0px 1px;
+	border-color:#eaeaea;
+	border-style:solid;
+	width:913px;
+	background-color:#fff;
+}
+
+#border2 {
+	border-width:0px 1px 0px 1px;
+	border-color:#dbdbdb;
+	border-style:solid;
+}
+
+#border3 {
+	border-width:0px 1px 0px 1px;
+	border-color:#bdbdbd;
+	border-style:solid;
+}
+
+#container {
+	border-width:0px 1px 0px 1px;
+	border-color:#9c9c9c;
+	border-style:solid;
+	position:relative;
+	min-height:120%;
+	text-align: left;
+	padding-bottom:40px;
+}
+
+#header {
+	background-color:#253148;
+	height:132px;
+}
+
+#searchform { position:absolute; top:20px; right:20px; }
+#searchform label { display:none; } 
+#searchform #s { border:none; background-color:#768ea9; padding-left:3px; color:#fff; }
+#searchform #searchsubmit { border:none; background-color:#768ea9; cursor:pointer; }
+#searchform #searchsubmit:hover { background-color:#b7c4d9; }
+
+#header img.logo { position:absolute; top:20px; left:20px; }
+
+#navigation {
+	height:35px;
+	background-color:#253148;
+}
+
+#navigation ul { 
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+#navigation ul li { margin:0px; padding:0px; 
+	display:block;
+	float:left;
+	height:35px;
+}
+
+#navigation li a { 
+	display:block;
+	float:left;
+	width:150px;
+	/*padding:0px 25px 0px 25px;*/
+	height:34px;
+	background-color:#8a95a7;
+	background-image:url(images/tab.png);
+	background-repeat:repeat-x;
+	text-align:center;
+	line-height:34px;
+	color:#fff;
+	font-size:18px;
+	border-width:1px 1px 0px 0px;
+	border-style:solid;
+	border-color:#253148;
+}
+
+#navigation li a:hover { text-decoration:none; background-color:#ddd; color:#000; background-image:none; }
+#navigation li.current_page_item a { background-color:#fff; background-image:none; color:#333; }
+
+#content { 
+	margin:0px 0px 60px 0px;
+	width:644px;
+}
+
+div.post { 
+	clear:left; 
+	margin:20px 0px 30px 20px;
+	width:592px;
+}
+
+div.post h2, div.post h3 { font-size:24px; font-weight:bold; margin:0px; line-height:28px; }
+div.post h2 a, div.post h3 a { color:#444; }
+
+div.post div.date { font-size:18px; color:#a1a4a8; line-height:28px; }
+div.post blockquote { padding:0px; margin:0px; padding-left:38px; font-size:12px; color:#8a8e95; background:url(images/quote.png) no-repeat; }
+
+div.post div.meta {
+	font-size:11px;
+	color:#999;
+	overflow:auto;
+}
+
+div.post div.meta a { color:#77aadd; }
+
+div.post div.meta div.left { width:70px; float:left; clear:left; }
+div.post div.meta div.right { width:510px; float:left; }
+
+#comments, #respond h3 { margin:0px; background-color:#eee; padding:10px 0px 10px 20px; border-width:1px 0px 1px 0px; border-color:#ddd; border-style:solid; }
+ol.commentlist { list-style-type:none; margin:0px 0px 0px 20px; padding:0px; width:600px;  }
+ol.commentlist li { margin:20px 0px 20px 0px; padding:0px; }
+ol.commentlist span.says { display:none; }
+ol.commentlist div.comment-author cite { font-style:normal; font-size:16px; }
+ol.commentlist div.comment-author, div.comment-meta { display:inline }
+ol.commentlist div.comment-meta a { margin-left:4px; color:#999; }
+ol.commentlist p { margin:0px 0px 10px 0px; }
+
+#respond form { width:600px; margin:0px 0px 0px 20px; padding:0px; overflow:auto; }
+#respond form textarea, #respond form input { background-color:#f3f3f3; }
+#respond form textarea { width:600px; }
+
+#sidebar {
+	position:absolute;
+	top:167px; bottom:0px; right:0px;
+	background:url(images/mountain.png) no-repeat;
+	margin:0px;
+	border:0px;
+	background-color:#44542b;
+	width:263px;
+	color:#fff;
+	padding:240px 0px 0px 0px;
+}
+
+#sidebar a { color:#fff; }
+
+#sidebar ul { list-style-type:none; margin:0px; padding:0px; width:230px; line-height:18px; }
+#sidebar ul.section { margin:0px 0px 30px 20px; }
+#sidebar h2 { margin:0px 0px 5px 0px; }
+
+#sidebar ul.about  { color:#b8d883; }
+#sidebar ul.about a { color:#b8d883; display:block; float:right; font-size:11px; }
+#sidebar ul.about a:hover { color:#fff; }
+
+
+#footer {
+	position:absolute; bottom:20px; left:20px; width:600px; font-size:12px; color:#888; line-height:18px; 
+}
