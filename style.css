@@ -2,9 +2,9 @@
 Theme Name: Transformation Strategy
 Theme URI: http://www.transformationstrategy.com/
 Description: A theme custom-made for Dad
-Version: 0.1
+Version: 0.2
 Author: Josh Reisner
-Author URI: http://joshreisner.com.com/
+Author URI: http://joshreisner.com/
 Tags: blue, green, custom header, fixed width, two columns, widgets
 */
 
@@ -130,7 +130,9 @@ div.post h2, div.post h3 { font-size:24px; font-weight:bold; margin:0px; line-he
 div.post h2 a, div.post h3 a { color:#444; }
 
 div.post div.date { font-size:18px; color:#a1a4a8; line-height:28px; }
-div.post blockquote { padding:0px; margin:0px; padding-left:38px; font-size:12px; color:#8a8e95; background:url(images/quote.png) no-repeat; }
+div.post blockquote { 
+	padding:0px; margin:0px; padding-left:38px; color:#8a8e95; background:url(images/quote.png) no-repeat; 
+}
 
 div.post div.meta {
 	font-size:11px;
@@ -142,6 +144,10 @@ div.post div.meta a { color:#77aadd; }
 
 div.post div.meta div.left { width:70px; float:left; clear:left; }
 div.post div.meta div.right { width:510px; float:left; }
+
+div.post div.meta div.addtoany { clear: left; padding-top: 10px; overflow: auto; }
+div.post div.meta .addtoany_list li { float: left; }
+div.post div.meta .addtoany_list a { padding: 0 0 0 0; margin: 0 10px 0 0; font-size: 11px; }
 
 #comments, #respond h3 { margin:0px; background-color:#eee; padding:10px 0px 10px 20px; border-width:1px 0px 1px 0px; border-color:#ddd; border-style:solid; }
 ol.commentlist { list-style-type:none; margin:0px 0px 0px 20px; padding:0px; width:600px;  }

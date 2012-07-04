@@ -25,8 +25,10 @@ get_header(); ?>
 					<div class="left">Category</div>
 					<div class="right"><?php the_category(', ') ?></div>
 					
+					<?php if (get_the_tags()) {?>
 					<div class="left">Tags</div>
 					<div class="right"><?php the_tags('', ', '); ?></div>
+					<?php }?>
 					
 					<div class="left">Comments</div>
 					<div class="right"><?php comments_popup_link('Leave a Comment', 'One Comment', '% Comments'); ?></div>
